@@ -59,7 +59,7 @@ ul li a {
     float: right;
 }
 
-.home1 {
+.home1, .home2, .get_involved {
     background-image: url("../images/home2.png");
     width: 40vw;
     height: 25vw;
@@ -80,10 +80,6 @@ ul li a {
     width: 40vw;
     height: 25vw;
     float: right;
-}
-
-.get_involved {
-    background-image: url("../images/home2.png");
 }
 
 footer {
