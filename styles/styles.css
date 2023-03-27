@@ -1,14 +1,35 @@
 * {
-  background-color: lightblue;
-  color: black;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+body {
+  margin: 0px;
 }
 
 nav {
+  background-color: #3cacac;
+  width: 100vw;
+  height: 10.8vw;
   text-align: center;
 }
 
+nav img {
+  float: left;
+}
+
+.tagline {
+  color: #8c52ff;
+}
+
 ul li {
-  display: inline;
+    display: inline;
+    padding: 10vw;
+    margin-top: 6vw;
+}
+ul li a {
+  text-decoration: none;
+  color: #FCDE59;
+  
 }
 
 h1 {
