@@ -1,5 +1,5 @@
 * {
-    font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
 }
 
 body {
@@ -18,72 +18,93 @@ nav img {
   float: left;
 }
 
+.banner-top {
+  padding-top: 10.9vw;
+  width: 100vw;
+  background-color: #fcde59;
+  color: #8c52ff;
+  text-align: center;
+}
+
 .tagline {
   color: #8c52ff;
 }
 
 ul li {
-    display: inline;
-    padding: 10vw;
-    margin-top: 6vw;
+  display: inline;
+  padding: 10vw;
+  margin-top: 6vw;
 }
 ul li a {
   text-decoration: none;
-  color: #FCDE59;
+  color: #fcde59;
   font-size: 2vw;
 }
 
 .first_row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .outsider1 {
-    /* padding: 8vh; */
-    width: 40vw;
-    height: 25vw;
+  /* padding: 8vh; */
+  width: 40vw;
+  height: 25vw;
 }
 
 .home1 {
-    background-image: url("../images/home2.png");
-    width: 40vw;
-    height: 25vw;
-    background-repeat: no-repeat;
+  background-image: url("../images/home2.png");
+  width: 40vw;
+  height: 25vw;
+  background-repeat: no-repeat;
 }
 
 .outsider2 {
-    /* padding: 8vh; */
-    width: 40vw;
-    height: 25vw;
-    float: right;
+  /* padding: 8vh; */
+  width: 40vw;
+  height: 25vw;
+  float: right;
 }
 
-.home1, .home2, .get_involved {
-    background-image: url("../images/home2.png");
-    width: 40vw;
-    height: 25vw;
-    background-repeat: no-repeat;
+.home1,
+.home2,
+.get_involved {
+  color: #fcde59;
+  background-image: url("../images/home2.png");
+  width: 40vw;
+  height: 25vw;
+  background-repeat: no-repeat;
 }
 
 .banner {
-    width: 100vw;
-    height: 33vw;
-    background-color: #3cacac;
+  width: 100vw;
+  height: 33vw;
+  background-color: #3cacac;
+  color: #8c52ff;
 }
 
 .third_row {
-    width: 100vw;
+  width: 100vw;
 }
 
-.target {    /* padding: 8vh; */
-    width: 40vw;
-    height: 25vw;
-    float: right;
+.target {
+  /* padding: 8vh; */
+  width: 40vw;
+  height: 25vw;
+  float: right;
+}
+
+.banner2 {
+  width: 100vw;
+  background-color: #fcde59;
+  color: #8c52ff;
+  text-align: center;
 }
 
 footer {
-    width: 100vw;
-    background-color: #3cacac;
-    position: fixed;
+  width: 100vw;
+  background-color: #3cacac;
+  bottom: 0%;
+  position: fixed;
 }
