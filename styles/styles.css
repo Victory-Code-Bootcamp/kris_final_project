@@ -11,6 +11,7 @@ nav {
   width: 100vw;
   height: 10.8vw;
   text-align: center;
+  position: fixed;
 }
 
 nav img {
@@ -44,9 +45,49 @@ ul li a {
     height: 25vw;
 }
 
-.home {
+.home1 {
     background-image: url("../images/home2.png");
     width: 40vw;
     height: 25vw;
     background-repeat: no-repeat;
+}
+
+.outsider2 {
+    /* padding: 8vh; */
+    width: 40vw;
+    height: 25vw;
+    float: right;
+}
+
+.home1 {
+    background-image: url("../images/home2.png");
+    width: 40vw;
+    height: 25vw;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100vw;
+    height: 33vw;
+    background-color: #3cacac;
+}
+
+.third_row {
+    width: 100vw;
+}
+
+.target {    /* padding: 8vh; */
+    width: 40vw;
+    height: 25vw;
+    float: right;
+}
+
+.get_involved {
+    background-image: url("../images/home2.png");
+}
+
+footer {
+    width: 100vw;
+    background-color: #3cacac;
+    position: fixed;
 }
