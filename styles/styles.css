@@ -63,11 +63,6 @@ ul li a {
   height: 50vw;
 }
 
-.image_column {
-  /* margin: 1vw; */
-  /* width: 100vw; */
-}
-
 .outsider1 {
   padding: 4vw;
   height: 33vw;
@@ -101,8 +96,7 @@ ul li a {
 }
 
 .home1,
-.home2,
-.get_involved {
+.home2 {
   color: #fcde59;
   background-image: url("../images/home2.png");
   width: 40vw;
@@ -118,7 +112,7 @@ ul li a {
   background-color: #3cacac;
   color: #8c52ff;
   justify-content: space-between;
-  margin: 4vw 0;
+  margin: 2vw 0;
 }
 
 .banner_text {
@@ -136,8 +130,42 @@ ul li a {
   float: right;
 }
 
-.fourth_row {
+.fourth_row  {
   width: 100vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.fifth_row {
+  width: 100vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.get_involved {
+  color: #fcde59;
+  background-image: url("../images/home2.png");
+  width: 100vw;
+  height: 70vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/home2.png); */
+  /* background-repeat: no-repeat; */
+  background-size: 53vw auto;
+  width: 100vw;
+  height: 60vw;
+  padding-top: 9vw;
+  /* width: 10vw; */
+  font-size: 1vw;
+  text-align: center;
+  color: #fcde59;
+  padding-left: 4vw;
+
 }
 
 .target {
