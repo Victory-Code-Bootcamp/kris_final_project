@@ -81,11 +81,11 @@ ul li a {
 
 .inner_text {
   padding-top: 9vw;
-  width: 10vw;
+  width: 16vw;
   font-size: 1vw;
   text-align: center;
   color: #fcde59;
-  padding-left: 4vw;
+  padding-left: 7vw;
 }
 
 .outsider2 {
@@ -139,32 +139,28 @@ ul li a {
 
 .fifth_row {
   width: 100vw;
-  height: 30vw;
+  height: 50vw;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .get_involved {
   color: #fcde59;
-  background-image: url("../images/home2.png");
-  width: 100vw;
-  height: 70vw;
+  background-image: url(../images/home2.png);
+  width: 16vw;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url(../images/home2.png); */
-  /* background-repeat: no-repeat; */
-  background-size: 53vw auto;
-  width: 100vw;
-  height: 60vw;
-  padding-top: 9vw;
+  /* background-size: 53vw auto; */
+  /* height: 60vw; */
+  /* padding-top: 9vw; */
   /* width: 10vw; */
   font-size: 1vw;
-  text-align: center;
-  color: #fcde59;
-  padding-left: 4vw;
+  /* text-align: center; */
+  /* padding-left: 4vw; */
+  margin-bottom: 8vw;
 
 }
 
