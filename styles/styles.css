@@ -9,7 +9,7 @@ body {
 nav {
   background-color: #3cacac;
   width: 100vw;
-  height: 10.8vw;
+  height: 11.4vw;
   text-align: center;
   position: fixed;
 }
@@ -26,14 +26,21 @@ nav img {
   text-align: center;
 }
 
-.tagline {
+h1.tagline {
   color: #8c52ff;
+  font-size: 2em;
+  margin: 10px 0 30px 0;
+}
+
+ul {
+  margin: 0;
 }
 
 ul li {
   display: inline;
   padding: 10vw;
-  margin-top: 6vw;
+  /* margin: 0; */
+  /* margin-top: 6vw; */
 }
 ul li a {
   text-decoration: none;
