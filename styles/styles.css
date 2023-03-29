@@ -11,7 +11,7 @@ nav {
   width: 100vw;
   height: 11.4vw;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   border-bottom: #000000;
   border-width: 8px;
 }
@@ -51,10 +51,12 @@ ul li a {
 }
 
 .first_row, .second_row {
-  padding-top: 14vw;
+  padding: 4vw 0;
   display: flex;
   justify-content: space-around;
 }
+
+
 
 .logo {
   width: 35vw;
@@ -129,13 +131,6 @@ ul li a {
   float: right;
 }
 
-.fourth_row  {
-  width: 100vw;
-  height: 30vw;
-  display: flex;
-  justify-content: center;
-}
-
 .fifth_row {
   width: 100vw;
   height: 50vw;
@@ -164,10 +159,7 @@ ul li a {
 }
 
 .target {
-  /* padding: 8vh; */
-  width: 40vw;
-  height: 25vw;
-  float: right;
+  width: 100vw;
 }
 
 .banner2 {
@@ -177,11 +169,18 @@ ul li a {
   text-align: center;
 }
 
+.footer_logo {
+  padding-right: 2vw;
+}
+
 footer {
   width: 100vw;
   background-color: #3cacac;
   bottom: 0%;
-  position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* position: fixed; */
 }
 
 /* Contact Page Styling */
