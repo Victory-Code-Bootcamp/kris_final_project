@@ -102,20 +102,21 @@ ul li a {
   background-repeat: no-repeat;
 }
 
-.third_row {
+.banner {
   display: flex;
   text-align: center;
   width: 100vw;
   height: 12vw;
   background-color: #3cacac;
-  color: #8c52ff;
+  color: #fcde59;
   justify-content: space-between;
   margin: 2vw 0;
 }
 
 .banner_text {
-  width: 60vw;
+  width: 100vw;
   font-size: .7em;
+  transform: translate(0%, 25%)
 }
 
 .logo_banner1 {
