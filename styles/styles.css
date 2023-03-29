@@ -22,7 +22,7 @@ nav img {
 }
 
 .banner-top {
-  padding-top: 10.9vw;
+  /* padding-top: 10.9vw; */
   width: 100vw;
   background-color: #fcde59;
   color: #8c52ff;
@@ -31,9 +31,9 @@ nav img {
 
 h1.tagline {
   color: #8c52ff;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0px 0 20px 0;
-  padding: 20px;
+  padding-top: 2vw;
 }
 
 ul {
@@ -181,6 +181,11 @@ footer {
   flex-wrap: nowrap;
   flex-direction: row;
   /* position: fixed; */
+}
+
+/* About Page Styling */
+.descriptor {
+  padding: 2vw 15vw;
 }
 
 /* Contact Page Styling */
