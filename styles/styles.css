@@ -182,3 +182,23 @@ footer {
   bottom: 0%;
   position: fixed;
 }
+
+/* Contact Page Styling */
+.form_row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form_column {
+  width: 50vw;
+  padding: 8vw;
+}
+
+.form_logo_column {
+  width: 50vw;
+}
+
+.form_logo {
+  width: 25vw;
+  padding: 8vw 12.5vw;
+}
