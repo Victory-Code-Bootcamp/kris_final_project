@@ -51,7 +51,7 @@ ul li a {
 }
 
 .first_row, .second_row {
-  padding-top: 175px;
+  padding-top: 14vw;
   display: flex;
   justify-content: space-around;
 }
