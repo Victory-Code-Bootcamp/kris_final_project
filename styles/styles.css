@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 nav {
@@ -18,6 +18,7 @@ nav {
 
 nav img {
   float: left;
+  width: 11vw;
 }
 
 .banner-top {
@@ -30,8 +31,9 @@ nav img {
 
 h1.tagline {
   color: #8c52ff;
-  font-size: 2em;
-  margin: 10px 0 30px 0;
+  font-size: 3em;
+  margin: 0px 0 20px 0;
+  padding: 20px;
 }
 
 ul {
@@ -55,8 +57,6 @@ ul li a {
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .logo {
   width: 35vw;
@@ -108,17 +108,17 @@ ul li a {
   display: flex;
   text-align: center;
   width: 100vw;
-  height: 12vw;
+  /* height: 12vw; */
   background-color: #3cacac;
   color: #fcde59;
   justify-content: space-between;
-  margin: 2vw 0;
+  /* margin: 2vw 0; */
 }
 
 .banner_text {
   width: 100vw;
   font-size: .7em;
-  transform: translate(0%, 25%)
+  /* transform: translate(0%, 25%) */
 }
 
 .logo_banner1 {
