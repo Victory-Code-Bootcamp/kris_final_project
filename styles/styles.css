@@ -53,19 +53,17 @@ ul li a {
 .first_row, .second_row {
   padding-top: 175px;
   display: flex;
-
-  /* flex-direction: column;
-  justify-content: center; */
+  justify-content: space-around;
 }
 
-.first_column, .second_column {
-  width: 50vw;
-  height: 50vw;
+.logo {
+  width: 35vw;
+  height: 35vw;
 }
 
 .outsider1 {
-  padding: 4vw;
-  height: 33vw;
+  height: 35vw;
+  width: 44vw;
 }
 
 .second_column {
