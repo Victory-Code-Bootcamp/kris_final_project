@@ -116,6 +116,11 @@ ul li a {
   /* margin: 2vw 0; */
 }
 
+.image_row {
+  /* Removes minor whitespace betweeen banner and image */
+  height: 615.8px;
+}
+
 .banner_text {
   width: 100vw;
   font-size: 0.7em;
@@ -167,6 +172,12 @@ ul li a {
   background-color: #fcde59;
   color: #8c52ff;
   text-align: center;
+}
+
+.movie {
+  display:flex;
+  justify-content: center;
+  padding: 3vw;
 }
 
 .footer_logo {
