@@ -52,7 +52,8 @@ ul li a {
   font-size: 2vw;
 }
 
-.first_row, .second_row {
+.first_row,
+.second_row {
   padding: 4vw 0;
   display: flex;
   justify-content: space-around;
@@ -117,7 +118,7 @@ ul li a {
 
 .banner_text {
   width: 100vw;
-  font-size: .7em;
+  font-size: 0.7em;
   /* transform: translate(0%, 25%) */
 }
 
@@ -155,7 +156,6 @@ ul li a {
   /* text-align: center; */
   /* padding-left: 4vw; */
   margin-bottom: 8vw;
-
 }
 
 .target {
@@ -185,7 +185,7 @@ footer {
 
 /* About Page Styling */
 .descriptor {
-  padding: 2vw 15vw;
+  padding: vw 15vw;
 }
 
 /* Contact Page Styling */
