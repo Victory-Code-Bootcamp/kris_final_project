@@ -21,12 +21,16 @@ nav img {
   width: 11vw;
 }
 
-.banner-top {
+.banner_top {
   /* padding-top: 10.9vw; */
   width: 100vw;
   background-color: #fcde59;
   color: #8c52ff;
   text-align: center;
+}
+
+.banner_top h1 {
+  margin: 0;
 }
 
 h1.tagline {
@@ -46,6 +50,7 @@ ul li {
   /* margin: 0; */
   /* margin-top: 6vw; */
 }
+
 ul li a {
   text-decoration: none;
   color: #fcde59;
@@ -180,6 +185,12 @@ ul li a {
   padding: 3vw;
 }
 
+.social {
+  display: inline-grid;
+  align-items: center;
+  padding-left: 1vw;
+}
+
 .footer_logo {
   padding-right: 2vw;
 }
@@ -196,7 +207,10 @@ footer {
 
 /* About Page Styling */
 .descriptor {
-  padding: vw 15vw;
+  padding: 2vw 10vw;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact Page Styling */
