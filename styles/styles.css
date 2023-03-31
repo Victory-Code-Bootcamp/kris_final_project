@@ -168,8 +168,14 @@ ul li a {
   margin-bottom: 8vw;
 }
 
+.image_row {
+  height: auto !important;
+}
+
 .target {
   width: 100vw;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .banner2 {
