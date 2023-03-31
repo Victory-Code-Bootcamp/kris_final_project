@@ -173,7 +173,7 @@ ul li a {
 }
 
 .target {
-  width: 100vw;
+  /* width: 100vw; */
   max-inline-size: 100%;
   block-size: auto;
 }
