@@ -180,6 +180,11 @@ ul li a {
   padding-right: 2vw;
 }
 
+.email_button {
+  background-color: #fcde59;
+  color: #8c52ff;
+}
+
 footer {
   width: 100vw;
   background-color: #3cacac;
