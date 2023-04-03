@@ -57,7 +57,7 @@ ul li a {
 .second_row {
   padding: 4vw 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -206,7 +206,7 @@ footer {
 
 .form_row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .form_column {
