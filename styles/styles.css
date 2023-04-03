@@ -193,6 +193,25 @@ footer {
   flex-wrap: nowrap;
   flex-direction: row;
 }
+/* Media Query Attempts */
+@media (max-width: 1120px) {
+  h1.tagline {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 850px) {
+  h1.tagline {
+    font-size: 1.5em;
+    padding-top: 0em;
+  }
+
+@media (max-width: 600px) {
+   h1.tagline {
+      font-size: 1.5em;
+   }
+ }
+}
 
 /* About Page Styling */
 .descriptor {
