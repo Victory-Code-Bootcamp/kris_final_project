@@ -194,6 +194,43 @@ footer {
   flex-direction: row;
 }
 
+/* Media Queries */
+@media (max-width: 1120px) {
+  h1.tagline {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1.tagline {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  h1.tagline {
+    font-size: 1.5em;
+  }
+
+  nav {
+    height: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  h1.tagline {
+    font-size: 1em;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  .banner_text {
+    font-size: .5em;
+  }
+}
+
 /* About Page Styling */
 .descriptor {
   padding: 2vw 10vw;
