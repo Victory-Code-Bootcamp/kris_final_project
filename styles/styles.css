@@ -208,6 +208,10 @@ footer {
   flex-direction: row;
 }
 
+.footer_banner {
+  padding-top: 1em;
+}
+
 /* Media Queries */
 @media (max-width: 1120px) {
   h1.tagline {
@@ -228,11 +232,13 @@ footer {
 
   .banner {
     font-size: 1em;
+    /* padding-top: 2.5em; */
   }
 
   nav {
     height: auto;
   }
+  
 }
 
 @media (max-width: 560px) {
