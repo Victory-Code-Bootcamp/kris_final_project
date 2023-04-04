@@ -35,7 +35,7 @@ nav img {
   margin: 0;
 }
 
-h1.tagline {
+.tagline {
   color: #8c52ff;
   font-size: 3em;
   margin: 0px 0 20px 0;
@@ -116,6 +116,7 @@ ul li a {
   background-color: #3cacac;
   color: #fcde59;
   justify-content: space-between;
+  font-size: 1.4em;
 }
 
 .banner_text {
@@ -225,6 +226,10 @@ footer {
     font-size: 1.5em;
   }
 
+  .banner {
+    font-size: 1em;
+  }
+
   nav {
     height: auto;
   }
@@ -232,7 +237,7 @@ footer {
 
 @media (max-width: 560px) {
   h1.tagline {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   nav {
@@ -240,7 +245,7 @@ footer {
   }
 
   .banner_text {
-    font-size: .5em;
+    font-size: .6em;
   }
 }
 
