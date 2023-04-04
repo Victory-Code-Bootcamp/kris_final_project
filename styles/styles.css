@@ -25,6 +25,10 @@ nav img {
   background-color: #fcde59;
   color: #8c52ff;
   text-align: center;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner_top h1 {
@@ -117,6 +121,11 @@ ul li a {
 .banner_text {
   width: 100vw;
   font-size: 0.7em;
+  height: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo_banner1 {
@@ -161,7 +170,11 @@ ul li a {
   width: 100vw;
   background-color: #fcde59;
   color: #8c52ff;
-  text-align: center;
+  /* text-align: center; */
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .movie {
