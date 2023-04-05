@@ -194,12 +194,20 @@ ul li a {
   padding-right: 2vw;
 }
 
+.banner_text_heading {
+  margin: 30px 0px 0px 0px;
+  padding: 10px;
+}
+
 .email_button {
   background-color: #fcde59;
   color: #8c52ff;
+  margin-bottom: 10px;
 }
 
 footer {
+  padding: 10px;
+  height: auto;
   width: 100vw;
   background-color: #3cacac;
   bottom: 0%;
@@ -252,6 +260,7 @@ footer {
 
   .banner_text {
     font-size: .6em;
+    padding: 10px;
   }
 }
 
