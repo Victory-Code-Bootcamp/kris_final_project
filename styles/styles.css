@@ -196,7 +196,11 @@ ul li a {
 
 .banner_text_heading {
   margin: 30px 0px 0px 0px;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
+}
+
+.banner_text_copy {
+  padding-bottom: 10px;
 }
 
 .email_button {
@@ -214,10 +218,6 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-}
-
-.footer_banner {
-  padding-top: 1em;
 }
 
 /* Media Queries */
