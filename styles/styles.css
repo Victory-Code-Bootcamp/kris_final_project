@@ -20,7 +20,7 @@ nav img {
   width: 11vw;
 }
 
-.banner_top {
+.banner-top {
   width: 100vw;
   background-color: #fcde59;
   color: #8c52ff;
@@ -31,7 +31,7 @@ nav img {
   align-items: center;
 }
 
-.banner_top h1 {
+.banner-top h1 {
   margin: 0;
 }
 
@@ -57,8 +57,8 @@ ul li a {
   font-size: 2vw;
 }
 
-.first_row,
-.second_row {
+.first-row,
+.second-row {
   padding: 4vw 0;
   display: flex;
   justify-content: space-evenly;
@@ -74,7 +74,7 @@ ul li a {
   width: 44vw;
 }
 
-.second_column {
+.second-column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ ul li a {
   height: 50vw;
 }
 
-.inner_text {
+.inner-text {
   padding-top: 9vw;
   width: 16vw;
   font-size: 1vw;
@@ -119,7 +119,7 @@ ul li a {
   font-size: 1.4em;
 }
 
-.banner_text {
+.banner-text {
   width: 100vw;
   font-size: 0.7em;
   height: 6vw;
@@ -129,23 +129,23 @@ ul li a {
   align-items: center;
 }
 
-.logo_banner1 {
+.logo-banner1 {
   width: 20vw;
   float: left;
 }
 
-.logo_banner2 {
+.logo-banner2 {
   width: 20vw;
   float: right;
 }
 
-.fifth_row {
+.fifth-row {
   width: 100vw;
   height: 50vw;
   display: flex;
 }
 
-.get_involved {
+.get-involved {
   color: #fcde59;
   background-image: url(../images/home2.png);
   width: 16vw;
@@ -158,7 +158,7 @@ ul li a {
   margin-bottom: 8vw;
 }
 
-.image_row {
+.image-row {
   height: auto !important;
 }
 
@@ -171,7 +171,6 @@ ul li a {
   width: 100vw;
   background-color: #fcde59;
   color: #8c52ff;
-  /* text-align: center; */
   height: 6vw;
   display: flex;
   justify-content: center;
@@ -190,20 +189,20 @@ ul li a {
   padding-left: 1vw;
 }
 
-.footer_logo {
+.footer-logo {
   padding-right: 2vw;
 }
 
-.banner_text_heading {
+.banner-text-heading {
   margin: 30px 0px 0px 0px;
   padding: 20px 10px 10px 10px;
 }
 
-.banner_text_copy {
+.banner-text-copy {
   padding-bottom: 10px;
 }
 
-.email_button {
+.email-button {
   background-color: #fcde59;
   color: #8c52ff;
   margin-bottom: 10px;
@@ -258,7 +257,7 @@ footer {
     height: auto;
   }
 
-  .banner_text {
+  .banner-text {
     font-size: .6em;
     padding: 10px;
   }
@@ -274,21 +273,21 @@ footer {
 
 /* Contact Page Styling */
 
-.form_row {
+.form-row {
   display: flex;
   justify-content: space-evenly;
 }
 
-.form_column {
+.form-column {
   width: 50vw;
   padding: 8vw;
 }
 
-.form_logo_column {
+.form-logo-column {
   width: 50vw;
 }
 
-.form_logo {
+.form-logo {
   width: 25vw;
   padding: 8vw 12.5vw;
 }
